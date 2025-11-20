@@ -1,0 +1,10 @@
+<!doctype html>
+<html>
+  <body>
+    <h1>Upload .npy file (1 x 4096 flattened face)</h1>
+    <form action="/predict" method="post" enctype="multipart/form-data">
+      <input type="file" name="file" accept=".npy" />
+      <input type="submit" value="Predict" />
+    </form>
+  </body>
+</html>
